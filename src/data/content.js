@@ -23,7 +23,14 @@ export const profile = {
         { src: `${import.meta.env.BASE_URL}logos/citigroup.png`, alt: 'Citigroup' },
       ],
     },
-    { value: '🇪🇺 EU + BR 🇧🇷', label: 'work authorized' },
+    {
+      value: 'EU + BR',
+      label: 'work authorized',
+      logos: [
+        { src: `${import.meta.env.BASE_URL}flags/eu.svg`, alt: 'European Union' },
+        { src: `${import.meta.env.BASE_URL}flags/br.svg`, alt: 'Brazil' },
+      ],
+    },
   ],
 }
 
@@ -128,6 +135,7 @@ export const reading = {
     'É crucial manter uma rotina de leitura variando entre temas técnicos e recreativos. Esse site eu mantenho por diversão e também aproveito para praticar outras tecnologias fora do Z.',
   url: 'https://thesubterfuge.online/#/leituras',
   linkLabel: 'thesubterfuge.online',
+  flag: `${import.meta.env.BASE_URL}flags/br.svg`,
 }
 
 export const contact = {
