@@ -3,12 +3,7 @@ import styles from './Contact.module.css'
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className={styles.section}
-      data-section
-      style={{ '--tech-bg': `url(${import.meta.env.BASE_URL}backgrounds/zIBM.png)` }}
-    >
+    <section id="contact" className={styles.section} data-section>
       <div className="container">
         <h2 className="reveal">Contact</h2>
         <div className={styles.grid}>

@@ -3,12 +3,7 @@ import styles from './HLASM.module.css'
 
 export default function HLASM() {
   return (
-    <section
-      id="hlasm"
-      className={styles.section}
-      data-section
-      style={{ '--tech-bg': `url(${import.meta.env.BASE_URL}backgrounds/zIBM.png)` }}
-    >
+    <section id="hlasm" className={styles.section} data-section>
       <div className="container">
         <h2 className="reveal">HLASM Knowledge</h2>
         <p className={`${styles.intro} reveal`}>
