@@ -6,8 +6,8 @@
   background-image: var(--tech-bg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: min(80%, 560px) auto;
-  opacity: 0.5;
+  background-size: min(90%, 720px) auto;
+  opacity: 0.28;
   mix-blend-mode: screen;
   pointer-events: none;
   z-index: 0;
