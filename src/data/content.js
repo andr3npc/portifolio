@@ -3,6 +3,7 @@ export const nav = [
   { id: 'experience', label: 'Experience' },
   { id: 'hlasm', label: 'HLASM' },
   { id: 'skills', label: 'Skills' },
+  { id: 'certificates', label: 'Certificates' },
   { id: 'reading', label: 'Leituras' },
   { id: 'contact', label: 'Contact' },
 ]
@@ -101,6 +102,24 @@ export const certifications = [
   { name: 'IBM Mainframe Developer', issuer: 'IBM', year: '2025' },
   { name: 'Deep Teaching Solutions', issuer: 'Coursera', year: '2025' },
   { name: 'Agile with Atlassian Jira', issuer: 'Coursera', year: '2025' },
+]
+
+export const courseCertificates = [
+  {
+    title: 'IBM COBOL Programming',
+    issuer: 'Coursera · IBM',
+    year: '2025',
+    file: `${import.meta.env.BASE_URL}certificates/Coursera_Cobol.pdf`,
+    covers: [
+      'Introduction to Enterprise Computing',
+      'IBM COBOL Basics',
+      'IBM COBOL Core',
+      'IBM COBOL Software Development Practices',
+      'IBM COBOL Data and File Management',
+      'IBM COBOL Basic Testing and Debugging',
+      'IBM COBOL Software Development Process',
+    ],
+  },
 ]
 
 export const hlasmTopics = [

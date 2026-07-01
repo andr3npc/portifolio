@@ -6,6 +6,7 @@ import Profile from './components/Profile.jsx'
 import Experience from './components/Experience.jsx'
 import HLASM from './components/HLASM.jsx'
 import Skills from './components/Skills.jsx'
+import Certificates from './components/Certificates.jsx'
 import Reading from './components/Reading.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
@@ -23,6 +24,7 @@ export default function App() {
         <Experience />
         <HLASM />
         <Skills />
+        <Certificates />
         <Reading />
         <Contact />
       </main>

@@ -1,0 +1,42 @@
+.section { padding: var(--space-6) 0; }
+.intro { max-width: 60ch; color: var(--text-muted); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+.head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); }
+.title { font-size: 1.25rem; margin: 0; }
+.year { flex-shrink: 0; color: var(--accent-strong); font-weight: 600; font-size: 0.85rem; }
+.issuer { color: var(--text-muted); margin: 4px 0 var(--space-2); }
+.covers { flex: 1; }
+.coversLabel {
+  display: block;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  margin-bottom: 6px;
+}
+.coversList { margin: 0; padding-left: 1.1rem; color: var(--text); }
+.coversList li { margin-bottom: 4px; font-size: 0.92rem; }
+.view {
+  align-self: flex-start;
+  margin-top: var(--space-3);
+  padding: 10px 22px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-weight: 600;
+}
+.view:hover { background: var(--accent); border-color: var(--accent); text-decoration: none; }
