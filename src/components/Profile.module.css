@@ -8,8 +8,9 @@
   border-left: 3px solid var(--accent);
   border-radius: var(--radius);
   padding: var(--space-3);
+  text-align: center;
 }
-.logos { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-1); min-height: 30px; }
+.logos { display: flex; align-items: center; justify-content: center; gap: var(--space-2); margin-bottom: var(--space-1); min-height: 30px; }
 .logo { height: 26px; width: auto; object-fit: contain; border-radius: 5px; border: 1px solid var(--border); }
 .value { display: block; font-family: var(--font-head); font-size: 1.6rem; }
 .label { color: var(--text-muted); font-size: 0.9rem; }
