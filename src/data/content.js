@@ -15,8 +15,15 @@ export const profile = {
     'Mainframe Systems Specialist with over 20 years of experience in IBM z/OS environments, specializing in system administration, performance tuning, and batch processing optimization. Proven expertise in managing complex enterprise workloads, maintaining high system availability, and driving modernization initiatives. Adept at working with cross-functional teams to ensure secure, stable, and efficient mainframe operations supporting critical business applications.',
   stats: [
     { value: '20+ yrs', label: 'in IBM z/OS' },
-    { value: 'IBM · Citigroup', label: 'enterprise mainframe' },
-    { value: 'EU + BR', label: 'work authorized' },
+    {
+      value: 'IBM · Citigroup',
+      label: 'enterprise mainframe',
+      logos: [
+        { src: `${import.meta.env.BASE_URL}logos/ibm.svg`, alt: 'IBM' },
+        { src: `${import.meta.env.BASE_URL}logos/citigroup.svg`, alt: 'Citigroup' },
+      ],
+    },
+    { value: '🇪🇺 EU + BR 🇧🇷', label: 'work authorized' },
   ],
 }
 

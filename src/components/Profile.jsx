@@ -10,6 +10,20 @@ export default function Profile() {
         <div className={styles.stats}>
           {profile.stats.map((s) => (
             <div key={s.label} className={`${styles.stat} reveal`}>
+              {s.logos && (
+                <span className={styles.logos}>
+                  {s.logos.map((logo) => (
+                    <img
+                      key={logo.alt}
+                      className={styles.logo}
+                      src={logo.src}
+                      alt={logo.alt}
+                      loading="lazy"
+                      onError={(e) => { e.currentTarget.style.display = 'none' }}
+                    />
+                  ))}
+                </span>
+              )}
               <span className={styles.value}>{s.value}</span>
               <span className={styles.label}>{s.label}</span>
             </div>
