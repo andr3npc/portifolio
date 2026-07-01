@@ -121,7 +121,15 @@ export const hlasmTopics = [
 ]
 
 export const skills = {
-  platforms: ['JES2', 'JCL', 'ISPF', 'z/OSMF', 'CA-7', 'OPC', 'Unix System Services'],
+  platforms: [
+    { name: 'JES2', description: 'Job Entry Subsystem 2 — manages the input, scheduling, and output (spooling) of batch jobs across z/OS.' },
+    { name: 'JCL', description: 'Job Control Language — tells z/OS which programs to run and with what datasets, parameters, and resources.' },
+    { name: 'ISPF', description: 'Interactive System Productivity Facility — the panel-driven editor and toolset for z/OS development and dataset management.' },
+    { name: 'z/OSMF', description: 'z/OS Management Facility — web-based console for system administration, workflows, and performance monitoring.' },
+    { name: 'CA-7', description: 'Enterprise batch scheduler that automates, sequences, and tracks production job workflows.' },
+    { name: 'OPC', description: 'Operations Planning and Control (Tivoli Workload Scheduler) — plans and drives batch workloads across systems.' },
+    { name: 'Unix System Services', description: 'The POSIX/UNIX environment inside z/OS — shell, files, and applications running alongside MVS.' },
+  ],
   codeLanguages: ['HLASM / Assembler', 'COBOL', 'Python', 'Go (Golang)'],
   spokenLanguages: ['English (Fluent)', 'Portuguese (Fluent)'],
 }

@@ -12,12 +12,28 @@ function Group({ title, items }) {
   )
 }
 
+function PlatformCards({ title, items }) {
+  return (
+    <div className={`${styles.group} reveal`}>
+      <h3 className={styles.groupTitle}>{title}</h3>
+      <ul className={styles.cards}>
+        {items.map((item) => (
+          <li key={item.name} className={styles.card}>
+            <span className={styles.cardName}>{item.name}</span>
+            <span className={styles.cardDesc}>{item.description}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 export default function Skills() {
   return (
     <section id="skills" className={styles.section} data-section>
       <div className="container">
         <h2 className="reveal">Skills</h2>
-        <Group title="Platforms & Tools" items={skills.platforms} />
+        <PlatformCards title="Platforms & Tools" items={skills.platforms} />
         <Group title="Languages" items={skills.codeLanguages} />
         <Group title="Spoken" items={skills.spokenLanguages} />
       </div>
