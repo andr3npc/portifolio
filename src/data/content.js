@@ -161,6 +161,7 @@ export const skills = {
 
 export const social = {
   github: 'https://github.com/andr3npc',
+  credly: 'https://www.credly.com/users/andre-carvalho.2992d39d/badges',
 }
 
 export const reading = {

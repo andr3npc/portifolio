@@ -57,6 +57,32 @@ export default function Nav({ active }) {
             </svg>
             <span className={styles.socialLabel}>GitHub</span>
           </a>
+          <a
+            href={social.credly}
+            className={styles.social}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Credly badges"
+            onClick={() => setOpen(false)}
+          >
+            <svg
+              className={styles.icon}
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <circle cx="12" cy="8" r="6" />
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+            </svg>
+            <span className={styles.socialLabel}>Credly</span>
+          </a>
         </nav>
       </div>
     </header>
