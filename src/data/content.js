@@ -131,6 +131,18 @@ export const courseCertificates = [
       'How to apply agile practices in Jira Software Cloud',
     ],
   },
+  {
+    title: 'Learning How to Learn',
+    issuer: 'Coursera · Deep Teaching Solutions',
+    year: '2025',
+    file: `${import.meta.env.BASE_URL}certificates/learnhowto.pdf`,
+    covers: [
+      'Focused vs. diffuse modes of thinking',
+      'Chunking, memory, and recall techniques',
+      'Beating procrastination (the Pomodoro technique)',
+      'Powerful mental tools to master tough subjects',
+    ],
+  },
 ]
 
 export const hlasmTopics = [

@@ -17,12 +17,14 @@ export default function Certificates() {
                 <span className={styles.year}>{cert.year}</span>
               </div>
               <p className={styles.issuer}>{cert.issuer}</p>
-              <div className={styles.covers}>
-                <span className={styles.coversLabel}>Covered</span>
-                <ul className={styles.coversList}>
-                  {cert.covers.map((c) => <li key={c}>{c}</li>)}
-                </ul>
-              </div>
+              {cert.covers?.length > 0 && (
+                <div className={styles.covers}>
+                  <span className={styles.coversLabel}>Covered</span>
+                  <ul className={styles.coversList}>
+                    {cert.covers.map((c) => <li key={c}>{c}</li>)}
+                  </ul>
+                </div>
+              )}
               <a
                 href={cert.file}
                 className={styles.view}
