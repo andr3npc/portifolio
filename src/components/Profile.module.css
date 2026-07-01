@@ -1,0 +1,13 @@
+.section { padding: var(--space-6) 0; }
+.summary { max-width: 68ch; color: var(--text); font-size: 1.1rem; }
+.stats { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }
+.stat {
+  flex: 1 1 200px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+.value { display: block; font-family: var(--font-head); font-size: 1.6rem; }
+.label { color: var(--text-muted); font-size: 0.9rem; }
