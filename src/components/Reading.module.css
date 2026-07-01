@@ -1,4 +1,5 @@
 .section { padding: var(--space-6) 0; }
+.flag { font-size: 0.75em; vertical-align: middle; }
 .statement {
   max-width: 62ch;
   color: var(--text);
