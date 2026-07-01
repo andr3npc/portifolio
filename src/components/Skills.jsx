@@ -28,13 +28,40 @@ function PlatformCards({ title, items }) {
   )
 }
 
+function LanguageCards({ title, items }) {
+  return (
+    <div className={`${styles.group} reveal`}>
+      <h3 className={styles.groupTitle}>{title}</h3>
+      <ul className={styles.cards}>
+        {items.map((lang) => (
+          <li key={lang.name} className={styles.card}>
+            <div className={styles.langHead}>
+              <span className={styles.cardName}>{lang.name}</span>
+              <span className={styles.since}>Since {lang.since}</span>
+            </div>
+            <span className={styles.cardDesc}>{lang.description}</span>
+            <div className={styles.usedBy}>
+              <span className={styles.usedByLabel}>Used by</span>
+              <ul className={styles.companyChips}>
+                {lang.companies.map((c) => (
+                  <li key={c} className={styles.companyChip}>{c}</li>
+                ))}
+              </ul>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 export default function Skills() {
   return (
     <section id="skills" className={styles.section} data-section>
       <div className="container">
         <h2 className="reveal">Skills</h2>
         <PlatformCards title="Platforms & Tools" items={skills.platforms} />
-        <Group title="Languages" items={skills.codeLanguages} />
+        <LanguageCards title="Languages" items={skills.codeLanguages} />
         <Group title="Spoken" items={skills.spokenLanguages} />
       </div>
     </section>

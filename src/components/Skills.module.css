@@ -29,3 +29,30 @@
 }
 .cardName { display: block; font-family: var(--font-head); font-size: 1.15rem; letter-spacing: 0.5px; }
 .cardDesc { display: block; margin-top: 6px; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
+
+.langHead { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); }
+.since {
+  flex-shrink: 0;
+  color: var(--accent-strong);
+  font-weight: 600;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.usedBy { margin-top: var(--space-2); }
+.usedByLabel {
+  display: block;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  margin-bottom: 6px;
+}
+.companyChips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0; }
+.companyChip {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+  color: var(--text);
+}

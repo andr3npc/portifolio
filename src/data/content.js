@@ -130,7 +130,32 @@ export const skills = {
     { name: 'OPC', description: 'Operations Planning and Control (Tivoli Workload Scheduler) — plans and drives batch workloads across systems.' },
     { name: 'Unix System Services', description: 'The POSIX/UNIX environment inside z/OS — shell, files, and applications running alongside MVS.' },
   ],
-  codeLanguages: ['HLASM / Assembler', 'COBOL', 'Python', 'Go (Golang)'],
+  codeLanguages: [
+    {
+      name: 'HLASM / Assembler',
+      since: '1964',
+      description: 'Maximum control and performance at the hardware level — the language of z/OS internals, system exits, and performance-critical code. IBM High Level Assembler (HLASM) has been the standard since 1992.',
+      companies: ['IBM', 'Citigroup', 'major banks & insurers'],
+    },
+    {
+      name: 'COBOL',
+      since: '1959',
+      description: 'Built for large-scale business and batch transaction processing; still runs the majority of the world’s banking, insurance, and government record-keeping.',
+      companies: ['Bank of America', 'IRS', 'IBM', 'insurers worldwide'],
+    },
+    {
+      name: 'Python',
+      since: '1991',
+      description: 'Fast to write and read — the go-to language for automation, data science, machine learning, and glue code across systems.',
+      companies: ['Google', 'Netflix', 'Instagram', 'NASA'],
+    },
+    {
+      name: 'Go (Golang)',
+      since: '2009',
+      description: 'Designed at Google for simple, highly concurrent, and fast networked services — the backbone of modern cloud infrastructure.',
+      companies: ['Google', 'Uber', 'Docker', 'Kubernetes'],
+    },
+  ],
   spokenLanguages: ['English (Fluent)', 'Portuguese (Fluent)'],
 }
 
