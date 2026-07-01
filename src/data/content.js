@@ -121,6 +121,12 @@ export const contact = {
   ],
 }
 
+export const resume = {
+  file: `${import.meta.env.BASE_URL}Andre-Neil-Resume.pdf`,
+  downloadName: 'Andre-Neil-Resume.pdf',
+  label: 'Download Résumé',
+}
+
 export const footer = {
   tagline: 'Built in HEX spirit',
 }

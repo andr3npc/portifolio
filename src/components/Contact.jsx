@@ -1,4 +1,4 @@
-import { contact } from '../data/content.js'
+import { contact, resume } from '../data/content.js'
 import styles from './Contact.module.css'
 
 export default function Contact() {
@@ -26,6 +26,13 @@ export default function Contact() {
             <ul>
               {contact.workAuth.map((a, i) => <li key={i}>{a}</li>)}
             </ul>
+            <a
+              href={resume.file}
+              download={resume.downloadName}
+              className={styles.resumeBtn}
+            >
+              {resume.label} ↓
+            </a>
           </div>
         </div>
       </div>
