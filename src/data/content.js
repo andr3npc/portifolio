@@ -120,6 +120,17 @@ export const courseCertificates = [
       'IBM COBOL Software Development Process',
     ],
   },
+  {
+    title: 'Agile with Atlassian Jira',
+    issuer: 'Coursera · Atlassian',
+    year: '2025',
+    file: `${import.meta.env.BASE_URL}certificates/atlassian.pdf`,
+    covers: [
+      'Basics of agile methodologies (Scrum and Kanban)',
+      'How to create and manage agile boards in Jira Software Cloud',
+      'How to apply agile practices in Jira Software Cloud',
+    ],
+  },
 ]
 
 export const hlasmTopics = [
