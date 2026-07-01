@@ -1,0 +1,23 @@
+.section { padding: var(--space-6) 0; background: var(--bg); }
+.timeline { display: flex; flex-direction: column; gap: var(--space-4); margin-top: var(--space-4); }
+.item { display: grid; grid-template-columns: 140px 1fr; gap: var(--space-3); }
+.period { color: var(--accent-strong); font-weight: 600; font-size: 0.95rem; padding-top: 2px; }
+.body { border-left: 1px solid var(--border); padding-left: var(--space-3); }
+.role { font-size: 1.4rem; margin-bottom: 2px; }
+.company { color: var(--text-muted); margin-bottom: var(--space-2); }
+.bullets { margin: 0; padding-left: 1.1rem; color: var(--text); }
+.bullets li { margin-bottom: var(--space-1); }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-top: var(--space-5); }
+.subhead { font-size: 1.2rem; color: var(--text); border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 4px; }
+.eduItem { margin-bottom: var(--space-3); }
+.eduPeriod { display: block; color: var(--accent-strong); font-size: 0.9rem; }
+.eduDetail { color: var(--text-muted); margin: 4px 0 0; }
+.certs { list-style: none; padding: 0; margin: 0; }
+.certs li { padding: var(--space-1) 0; border-bottom: 1px solid var(--border); color: var(--text); }
+
+@media (max-width: 720px) {
+  .item { grid-template-columns: 1fr; gap: var(--space-1); }
+  .body { border-left: 0; padding-left: 0; }
+  .grid { grid-template-columns: 1fr; }
+}
