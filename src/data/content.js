@@ -19,8 +19,8 @@ export const profile = {
       value: 'IBM · Citigroup',
       label: 'enterprise mainframe',
       logos: [
-        { src: `${import.meta.env.BASE_URL}logos/ibm.svg`, alt: 'IBM' },
-        { src: `${import.meta.env.BASE_URL}logos/citigroup.svg`, alt: 'Citigroup' },
+        { src: `${import.meta.env.BASE_URL}logos/ibm.png`, alt: 'IBM' },
+        { src: `${import.meta.env.BASE_URL}logos/citigroup.png`, alt: 'Citigroup' },
       ],
     },
     { value: '🇪🇺 EU + BR 🇧🇷', label: 'work authorized' },
