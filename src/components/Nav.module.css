@@ -30,6 +30,11 @@
 .links a:hover { color: var(--interact); text-decoration: none; }
 .activeLink { color: var(--text) !important; border-bottom-color: var(--accent) !important; }
 
+.social { display: inline-flex; align-items: center; gap: var(--space-1); }
+.social:hover { color: var(--interact); }
+.icon { display: block; }
+.socialLabel { display: none; }
+
 .toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
 .toggle span { width: 24px; height: 2px; background: var(--text); display: block; }
 
@@ -50,4 +55,5 @@
   }
   .linksOpen { max-height: 320px; }
   .links a { padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--border); }
+  .socialLabel { display: inline; }
 }

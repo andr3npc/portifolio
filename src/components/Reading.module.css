@@ -1,0 +1,18 @@
+.section { padding: var(--space-6) 0; }
+.statement {
+  max-width: 62ch;
+  color: var(--text);
+  font-size: 1.15rem;
+  border-left: 3px solid var(--accent);
+  padding-left: var(--space-3);
+}
+.link {
+  display: inline-block;
+  margin-top: var(--space-3);
+  padding: 12px 28px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-weight: 600;
+}
+.link:hover { background: var(--accent); border-color: var(--accent); text-decoration: none; }

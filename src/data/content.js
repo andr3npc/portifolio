@@ -3,6 +3,7 @@ export const nav = [
   { id: 'experience', label: 'Experience' },
   { id: 'hlasm', label: 'HLASM' },
   { id: 'skills', label: 'Skills' },
+  { id: 'reading', label: 'Leituras' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -109,6 +110,17 @@ export const skills = {
   platforms: ['JES2', 'JCL', 'ISPF', 'z/OSMF', 'CA-7', 'OPC', 'Unix System Services'],
   codeLanguages: ['HLASM / Assembler', 'COBOL', 'Python', 'Go (Golang)'],
   spokenLanguages: ['English (Fluent)', 'Portuguese (Fluent)'],
+}
+
+export const social = {
+  github: 'https://github.com/andr3npc',
+}
+
+export const reading = {
+  statement:
+    'É crucial manter uma rotina de leitura variando entre temas técnicos e recreativos. Esse site eu mantenho por diversão e também aproveito para praticar outras tecnologias fora do Z.',
+  url: 'https://thesubterfuge.online/#/leituras',
+  linkLabel: 'thesubterfuge.online',
 }
 
 export const contact = {
