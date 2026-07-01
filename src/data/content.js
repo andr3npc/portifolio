@@ -107,7 +107,7 @@ export const hlasmTopics = [
 
 export const skills = {
   platforms: ['JES2', 'JCL', 'ISPF', 'z/OSMF', 'CA-7', 'OPC', 'Unix System Services'],
-  codeLanguages: ['HLASM / Assembler', 'COBOL'],
+  codeLanguages: ['HLASM / Assembler', 'COBOL', 'Python', 'Go (Golang)'],
   spokenLanguages: ['English (Fluent)', 'Portuguese (Fluent)'],
 }
 
