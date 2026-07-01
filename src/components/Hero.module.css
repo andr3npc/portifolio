@@ -3,7 +3,9 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url('/hero.jpg') center / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: var(--bg);
 }
 .overlay {

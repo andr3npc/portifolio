@@ -3,7 +3,12 @@ import styles from './Hero.module.css'
 
 export default function Hero() {
   return (
-    <section id="hero" className={styles.hero} data-section>
+    <section
+      id="hero"
+      className={styles.hero}
+      data-section
+      style={{ backgroundImage: `url(${import.meta.env.BASE_URL}hero.jpg)` }}
+    >
       <div className={styles.overlay} />
       <div className={`container ${styles.inner}`}>
         <p className={styles.kicker}>Mainframe · z/OS · HLASM</p>
